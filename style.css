@@ -1,0 +1,179 @@
+html, body {
+    overflow: hidden;
+    margin: 0;
+}
+
+body#tarifs {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+}
+
+.bg-secondary{
+    padding: 0;
+    margin: 0;
+}
+/*
+.card-group{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px;
+    align-item: center;
+    text-align: center;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+    
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+*/
+.container h1{
+    font-size: 5rem;
+    color:#4a4e69;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    animation: demo 0.5s ease-in; 
+    position: fixed !important;
+    top: 200px !important;
+    left: 150px !important;
+}
+
+.container h3{
+    font-size: 4rem;
+    color:white;
+    background: linear-gradient(90deg, #202020, #202020, #202020);
+    letter-spacing: 5px;
+    animation-duration: 6s ease-in;
+    animation-iteration-count: infinite;
+    position: fixed !important;
+    top: 400px !important;
+    left: 100px;
+}
+
+li .active{
+    background-color: #1e6091;
+    border-radius: 15px;
+}
+/*
+.card{
+    display: flex;
+}
+*/
+a.navbar-brand {
+    color: #001d3d;
+}
+
+a:hover.navbar-brand {
+    color: #001d3d;
+    
+}
+
+a.nav-link {
+    color: #003566;
+}
+
+.navbar{
+    /*   z-index should be above .close-navbar-toggler */
+      box-shadow:0 5px 10px rgba(0,0,0,0.1);
+      z-index:2;  
+    }
+
+
+    .close-navbar-toggler{
+      
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      z-index:1;
+      cursor:pointer;
+    }
+
+    .close-navbar-toggler.collapsed{
+      z-index:-1;
+    }
+
+   /* 
+    .card{
+        border-radius: 8px;
+        border: 1px solid #cccccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        box-sizing: border-box;
+        width: 200px;
+        height: 200px;
+        transition: all linear 200ms;
+      }
+    */
+
+
+
+@media only screen and (max-width: 600px) {
+    .container h1 {
+        color: black;
+      font-size: 1.5rem;
+      position: fixed !important;
+      top: 200px !important;
+    left: 50px;
+    }
+    .container h3 {
+     background-color: white;
+     font-size: 3rem;
+     position: relative !important;
+    top: 300px !important;
+    left: 20px;
+    }
+  }
+/* MODIFICATIONS POUR LES CARTE DE WALID LUNDI 7 À 
+.card-group{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) ;
+    grid-gap: 10px;    
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.card img {    
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card-footer button{
+    background-color: white;
+    color: rgb(20, 136, 246);
+    border: 1;
+    border-color: rgb(20, 136, 246);
+    border-radius: 5px;
+}
+
+.card-footer button:hover{
+    background-color: rgb(20, 136, 246);
+    color: white;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 150px 1fr;
+}
+
+.card-footer,.card-body{
+    border: 1px;
+    border-color:rgb(196, 196, 196);
+    border-style: solid;
+}
+
+.card-text{
+    text-align: justify;
+    font-size:small;
+}
