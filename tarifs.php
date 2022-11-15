@@ -59,7 +59,7 @@ include 'inc/nav.inc.php';
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                <p>At vero eos et accusamus et iusto odio dignissimos walid000</p>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
               </div>                
             </div>
             <div class="bouton-en-bas">
