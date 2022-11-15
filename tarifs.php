@@ -60,7 +60,11 @@ include 'inc/nav.inc.php';
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
+<<<<<<< Updated upstream
                 <p>MAIS COMMENT CA gcxgfcg</p>
+=======
+                <p>MAIS COMMENT CA modif</p>
+>>>>>>> Stashed changes
               </div>                
             </div>
             <div class="bouton-en-bas">
