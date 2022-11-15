@@ -1,84 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
-	<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Document</title>
-</head>
-<body>
-    <canvas id="canvas"></canvas>
+<?php
+include 'inc/init.inc.php';
+include 'inc/function.inc.php';
+include 'inc/header.inc.php';
+include 'inc/nav.inc.php';
 
-    <!-- NAVBAR -->
-    <section id="nav-bar">
+?>
+  <canvas id="canvas"></canvas>
+  <div class="maintitle">
+  <h1>Créer, c'est
+    <span
+        class="txt-rotate"
+        data-period="2000"
+        data-rotate='[ "un pouvoir", "à la portée de tous", "coder", "", "CREATECH !" ]'></span>
+  </h1>
+  <h2>Create is CREATECH</h2>
+</div> 
+<script>
+  var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
 
-        <nav class="navbar navbar-expand-lg header-nav fixed-top">
-               <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="../img/favicon_createch.png">&nbsp;&nbsp; CREATECH INFORMATIQUE SERVICES</a>
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
 
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fa-sharp fa-solid fa-bars"></i></span>
-                  </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0 mb-md-6 mb-xs-3">
-                      <li class="active">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.in" href="#">Nos Services</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.in" href="tarifs.html">Tarifs</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Contact
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">A propos de nous</a></li>
-                          <li><a class="dropdown-item" href="#">Nous contacter</a></li>
-                          <li><a class="dropdown-item" href="#">Témoignages</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">FAQ</a></li>
-                        </ul>
-                      </li>
-                      <form class="d-flex" role="search">
-                        <input class="form-control me-sm-2" type="search" placeholder="Saisissez..." aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Rechercher</button>
-                      </form>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </section>
-  <!-- NAVBAR -->
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
 
-<div class="row">
-        <div class="container col-sm-2">
-          <h1>Bienvenue !</h1>
-          <h3>Welcome !</h3>
-        </div>
-</div>
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
+  var that = this;
+  var delta = 300 - Math.random() * 100;
 
+  if (this.isDeleting) { delta /= 2; }
 
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECTION CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
+<!-- bouton menu sur mobile -->
 <script>
     $(document).ready(function () { 
   $(document).click(function () {
      // if($(".navbar-collapse").hasClass("in")){
-       $('.navbar-collapse').collapse('hide');
+        $('.navbar-collapse').collapse('hide');
      // }
   });
 });
 </script>
+<!-- fin bouton menu sur mobile -->
 
-
-<!-- script JS --> 
+<!-- script sphere JS --> 
+<div id="move">
     <script>
 var canvas = document.getElementById("canvas");
 
@@ -254,10 +262,11 @@ for ( let i = 0; i < group.children.length; i ++ ) {
 renderer.render( scene, camera );
 }
 }
-    </script>
-    <!-- script JS --> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
-</body>
-</html>
 
+
+    </script>
+    </div>
+    <!-- fin script sphere JS --> 
+    <?php
+include 'inc/footer.inc.php'
+?>
