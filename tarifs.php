@@ -2,12 +2,13 @@
 include 'inc/init.inc.php';
 include 'inc/function.inc.php';
 include 'inc/header.inc.php';
-include 'inc/nav.inc.php';
+// include 'inc/nav.inc.php';
 ?>
-<html>
+<!-- <html> -->
 
 <body>
-<main class="background_tarif">
+  <div class="scroll_de_tarif">
+   <main class="background_tarif">
       <section id="nav-bar">
         <nav class="navbar navbar-expand-lg header-nav ">
           <div class="container-fluid">
@@ -80,7 +81,7 @@ include 'inc/nav.inc.php';
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                <p>At vero eos et accusamus et iusto odio dignissimos </p>
+                <p>gejhrbfkjerjfejrngknerjfergrtget</p>
                 </div>               
             </div>
             <div class="bouton-en-bas">
@@ -173,8 +174,9 @@ include 'inc/nav.inc.php';
       </div>
     </div>
     </main>
-    </body>
-    </html>
+    </div>
+    <!-- </body>
+    </html> -->
   <?php
   include 'inc/footer.inc.php';
   ?>

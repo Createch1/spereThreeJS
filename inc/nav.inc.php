@@ -1,5 +1,5 @@
-<html>
-<body class="index">
+ <!-- <html> -->
+<body class="index" > 
    
 
    <!-- NAVBAR -->
@@ -44,6 +44,6 @@
                </div>
              </nav>
        </section> 
-</body>
-</html>
- <!-- fin NAVBAR -->
+<!-- </body>
+</html> -->
+<!-- fin NAVBAR -->

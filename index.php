@@ -4,7 +4,7 @@ include 'inc/function.inc.php';
 include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 
-?>
+?> 
   <canvas id="canvas"></canvas>
   <div class="maintitle">
   <h1>Créer, c'est
@@ -13,8 +13,8 @@ include 'inc/nav.inc.php';
         data-period="2000"
         data-rotate='[ "un pouvoir", "à la portée de tous", "coder", "", "CREATECH !" ]'></span>
   </h1>
-  <h2>Create is CREATECH</h2>
-</div> 
+  <h2>Create is CREATECH</h2> 
+</div>
 <script>
   var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
@@ -266,6 +266,7 @@ renderer.render( scene, camera );
 
     </script>
     </div>
+    <!-- </div> -->
     <!-- fin script sphere JS --> 
     <?php
 include 'inc/footer.inc.php'
