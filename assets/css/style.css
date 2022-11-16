@@ -96,7 +96,7 @@ h2 {
     transition: all linear 200ms;
 }
 .card:hover {
-    transform: translateY(-70px);
+    transform: translateY(-20px);
 }    
 .button{
     display: flex;
