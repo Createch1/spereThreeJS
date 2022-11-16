@@ -5,6 +5,8 @@ include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 ?>
 <html>
+
+<body>
 <main class="background_tarif">
       <section id="nav-bar">
         <nav class="navbar navbar-expand-lg header-nav ">
@@ -59,7 +61,7 @@ include 'inc/nav.inc.php';
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                <p>At vero eos et accusamus et iusto odio dignissimos </p>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
               </div>                
             </div>
             <div class="bouton-en-bas">
@@ -171,6 +173,7 @@ include 'inc/nav.inc.php';
       </div>
     </div>
     </main>
+    </body>
     </html>
   <?php
   include 'inc/footer.inc.php';
