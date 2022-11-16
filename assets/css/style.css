@@ -1,4 +1,4 @@
-
+/*
 html {
     height: 100vh;
 }
@@ -62,7 +62,7 @@ h2 {
 }
 
 .navbar{
-    /*   z-index should be above .close-navbar-toggler */
+z-index should be above .close-navbar-toggler 
     box-shadow:0 5px 10px rgba(0,0,0,0.1);
     z-index:2;  
 }
