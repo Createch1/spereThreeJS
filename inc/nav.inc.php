@@ -1,11 +1,11 @@
  <!-- <html> -->
-<body class="index" > 
+<body class="index " > 
    
 
    <!-- NAVBAR -->
    <section id="nav-bar">
 
-       <nav class="navbar navbar-expand-lg header-nav fixed-top">
+       <nav class="navbar navbar-expand-lg header-nav">
                <div class="container-fluid">
                  <a class="navbar-brand" href="#"><img src="../img/favicon_createch.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATECH INFORMATIQUE SERVICES</a>
 
@@ -28,11 +28,11 @@
                          Contact
                        </a>
                        <ul class="dropdown-menu">
-                         <li><a class="dropdown-item" href="#">A propos de nous</a></li>
-                         <li><a class="dropdown-item" href="../contact.php">Nous contacter</a></li>
+                         <li><a class="dropdown-item" href="propos.php">A propos de nous</a></li>
+                         <li><a class="dropdown-item" href="contact.php">Nous contacter</a></li>
                          <li><a class="dropdown-item" href="#">Témoignages</a></li>
                          <li><hr class="dropdown-divider"></li>
-                         <li><a class="dropdown-item" href="../faq.php">FAQ</a></li>
+                         <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
                        </ul>
                      </li>
                      <form class="d-flex" role="search">

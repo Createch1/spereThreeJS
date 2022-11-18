@@ -6,7 +6,6 @@ include 'inc/header.inc.php';
 ?>
 <!-- <html> -->
 
-<body>
   <div class="scroll_de_tarif">
    <main class="background_tarif">
       <section id="nav-bar">

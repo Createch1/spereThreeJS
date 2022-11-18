@@ -268,6 +268,6 @@ renderer.render( scene, camera );
     </div>
     <!-- </div> -->
     <!-- fin script sphere JS --> 
-    <?php
+<?php
 include 'inc/footer.inc.php'
 ?>
