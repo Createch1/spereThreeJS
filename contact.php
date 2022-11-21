@@ -17,5 +17,5 @@ include 'inc/nav.inc.php';
 </div>
 
 <<?php 
-include 'footer.inc.php'
+include 'inc/footer.inc.php'
 ?>
