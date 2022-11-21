@@ -14,17 +14,13 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
-    color: a0e7ff;
-}
-.background_tarif{
-    background-color: rgb(53, 66, 94);
-}
-
-body {
-    padding: 0;
-    margin: 0;
     background-color: #202020 ;
 }
+
+.background_tarif{
+    background-color: rgba(19, 138, 230, 0.566);
+}
+
 
 a.navbar-brand {
     color: #a0e7ff;
@@ -130,4 +126,10 @@ h2 {
 
 .card-img-top{
     height: 220px;
+}
+
+services container {
+    text-align: center;
+    background-color:whitesmoke;
+    .row
 }

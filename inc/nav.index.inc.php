@@ -1,10 +1,6 @@
-<!-- <html> -->
-<body> 
-
-  <!-- NAVBAR -->
-  <div class="scroll_de_tarif">
-    <main class="background_tarif">
-      <section id="nav-bar">
+<body class="index">
+      
+        <section id="nav-bar">
         <nav class="navbar navbar-expand-lg header-nav ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="../img/favicon_createch.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATECH INFORMATIQUE SERVICES</a>
@@ -44,4 +40,3 @@
           </div>
         </nav>
       </section>
-<!-- fin NAVBAR -->
