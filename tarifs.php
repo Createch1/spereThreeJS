@@ -33,7 +33,7 @@ include 'inc/nav.inc.php';
             <div class="card-body">
               <h5 class="card-title">FORFAIT 2</h5>
               <div class="card-text">
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
+                <p>At vero eos et accusamus et CEST QUOI CE BORDEL ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>gejhrbfkjerjfejrngknerjfergrtget</p>
