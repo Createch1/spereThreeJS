@@ -1,6 +1,6 @@
 <body class="index">
       
-        <section id="nav-bar">
+<section id="nav-bar">
         <nav class="navbar navbar-expand-lg header-nav ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="../img/favicon_createch.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATECH INFORMATIQUE SERVICES</a>

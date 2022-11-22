@@ -4,8 +4,12 @@ include 'inc/function.inc.php';
 include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 ?>
+  <div class="page_tarif">
+    <h1>Nos forfaits</h1>
+    <br>
+      <p class="first_p" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum dicta debitis labore temporibus nesciunt voluptas saepe, praesentium iure minus ab sint voluptatibus aut ut deserunt officia! Tempora possimus consequatur facilis cum. Enim impedit, quisquam exercitationem magnam nesciunt deleniti provident odit, tempore iusto omnis doloremque, tenetur eveniet quas qui et.</p>
       <div class="container">      
-      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-1 pt-5 pb-5 mb-0 d-flex justify-content-evenly " >
+      <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-1 pt-3 pb-5 mb-0 d-flex justify-content-evenly " >
         <div class="col p-4">
           <div class="card h-100 w-100">
             <img src="https://cdn.pixabay.com/photo/2018/01/20/15/06/hard-drive-3094771_1280.jpg" class="card-img-top" >
@@ -130,6 +134,7 @@ include 'inc/nav.inc.php';
     </div>
     </main>
     </div>
+  </div>
 
 <?php 
 include 'inc/footer.inc.php';

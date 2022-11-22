@@ -1,3 +1,8 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 html {
     height: 100vh;
@@ -18,7 +23,7 @@ body {
 }
 
 .background_tarif{
-    background-color: rgba(19, 138, 230, 0.566);
+    background-color: rgba(112, 193, 255, 0.566);
 }
 
 
@@ -44,7 +49,7 @@ a.nav-link:hover {
     transform: translateY(-5px);
 }
 
-h1,h2 {
+.index h1,h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     margin: 0.4em 0;
@@ -68,9 +73,6 @@ h2 {
     z-index:2;  
 }
 
-.nav-bar{
-
-}
 
 .close-navbar-toggler{     
     position:absolute;
@@ -128,8 +130,42 @@ h2 {
     height: 220px;
 }
 
-services container {
+.page_services h1 {
     text-align: center;
-    background-color:whitesmoke;
-    .row
+    font-size: 40px;
+    color: rgb(0, 51, 96);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px 0 20px 0;
+}
+
+.page_tarif h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 51, 96);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px 0 0 0;
+}
+
+.grille{
+    max-width: 1700px;
+    width: 90%;
+    height: auto;
+    margin: 30px auto 0 auto;
+    padding:0 0 30px 0;
+    /* border: 1px solid #333; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px); 
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+.grid-item{
+    width: 400px;
+    height: 300px;
+    background: #333;
+}
+
+.first_p{
+    padding: 0 60px;
+    text-align: justify;
 }
