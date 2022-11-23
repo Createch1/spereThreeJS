@@ -2,8 +2,9 @@
 <body> 
 
   <!-- NAVBAR -->
-  <div class="scroll_de_tarif">
+  <div class="scroll">
     <main class="background_tarif">
+      <span id="haut"></span>
       <section id="nav-bar">
         <nav class="navbar navbar-expand-lg header-nav ">
           <div class="container-fluid">

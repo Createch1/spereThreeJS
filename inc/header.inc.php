@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,6 @@
 	<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Document</title>
+    <title>Document</title> 
 </head>
 <!-- </html> -->
