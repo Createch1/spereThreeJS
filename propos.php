@@ -23,6 +23,7 @@ des grandes marques du marché (Asus, Acer, HP, Lenovo, Toshiba, Dell….)</p>
         <img src="https://images.prismic.io/govirtuo/bc0439a3-b3ff-4deb-9d0d-00e701b230c9_Virtuo_Drive_Free-62.jpg?auto=compress,format&w=1920&q=75" alt="" class="w-100 rounded">
     </div>
 </div>
+
 <hr class="featurette-divider">
 
 
@@ -42,6 +43,7 @@ dépannages informatique et création de sites web sur-mesure.</p>
 
     </div>
 </div>
+
 <hr class="featurette-divider">
 
 <div class="row featurette m-3 ">
@@ -60,6 +62,19 @@ votre ordinateur et vous êtes rapidement dépanner.</p>
     <div class="col-md-5">
         <img src="https://images.prismic.io/govirtuo/bc0439a3-b3ff-4deb-9d0d-00e701b230c9_Virtuo_Drive_Free-62.jpg?auto=compress,format&w=1920&q=75" alt="" class="w-100 rounded">
     </div>
+    <div class="col-md-6 m-auto">
+        <h4>Intervention à Domicile</h4>
+        <p>Pour les interventions à Domicile, nous nous déplaçons sur l’ensemble de la commune
+Tremblaysienne et dans un rayon de 30 Km de Tremblay-en-France.</p>
+    </div>
+
+    <div class="col-md-6 m-auto">
+        <h4>Intervention à Distance</h4>
+        <p>Nous intervenons sur l’ensemble du territoire Français. Que
+vous soyez en Corse, Paris, Lyon, Marseille, Toulouse ou dans un petit village, nous pouvons
+vous dépanner grâce à notre outil de prise en main à distance efficace et sécurisé.
+Evidemment, cela nécessite d’avoir une connexion internet active et fonctionnel.</p>
+    </div>
 </div>
 
 
@@ -68,23 +83,20 @@ votre ordinateur et vous êtes rapidement dépanner.</p>
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h3>Heading</h3>
+        <h5>Heading</h5>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h3>Heading</h3>
+        <h5>Heading</h5>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h3>Heading</h3>
+        <h5>Heading</h5>
         <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 </main>
