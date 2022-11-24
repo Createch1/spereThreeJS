@@ -7,7 +7,7 @@ include 'inc/nav.inc.php';
 <main class="container background_tarif">
 <div class="row featurette m-3">
     <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <h3 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h3>
         <p class="lead">Createch Informatique est une entreprise située en Seine-Saint-Denis (Tremblay-en-
 France). Notre expérience client et technique nous ont conduit à créer en toute logique
 Createch Informatique en proposant des services et prestations de qualité.
@@ -28,7 +28,7 @@ des grandes marques du marché (Asus, Acer, HP, Lenovo, Toshiba, Dell….)</p>
 
 <div class="row featurette m-3">
     <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <h3 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h3>
         <p class="lead">CREATECH Informatique a été créée pour répondre aux différents besoins de satisfaire la clientèle et
 de contribuer à améliorer l’expérience client au travers du service à la personne, de conseils,
 dépannages informatique et création de sites web sur-mesure.</p>
@@ -46,7 +46,7 @@ dépannages informatique et création de sites web sur-mesure.</p>
 
 <div class="row featurette m-3 ">
     <div class="col-md-7">
-        <h2 class="">Nos périmètres d’action </h2>
+        <h3 class="">Nos périmètres d’action </h3>
         <p class="lead">De nos jours, l’outil informatique est de plus en plus utilisé que ce soit à titre personnel ou
 pour le travail. Avec l’épidémie du Covid-19, nous avons aussi dû nous adapter à travailler
 différemment notamment avec la mise en place du Télétravail partiel ou du Full-Télétravail ce
@@ -62,25 +62,27 @@ votre ordinateur et vous êtes rapidement dépanner.</p>
     </div>
 </div>
 
-<div class="row d-flex justify-content-evenly">
+
+<!-- profil sphere -->
+<div class="row d-flex justify-content-evenly text-center">
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h3>Heading</h3>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h3>Heading</h3>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-        <h2>Heading</h2>
+        <h3>Heading</h3>
         <p>And lastly this, the third column of representative placeholder content.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
