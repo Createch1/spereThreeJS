@@ -7,7 +7,7 @@ include 'inc/nav.inc.php';
   <div class="page_tarif">
     <h1>Nos forfaits</h1>
     <br>
-      <p class="first_p" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam rerum dicta debitis labore temporibus nesciunt voluptas saepe, praesentium iure minus ab sint voluptatibus aut ut deserunt officia! Tempora possimus consequatur facilis cum. Enim impedit, quisquam exercitationem magnam nesciunt deleniti provident odit, tempore iusto omnis doloremque, tenetur eveniet quas qui et.</p>
+      <p class="first_p">Chez Createch informatique </p>
       <div class="container">      
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-1 pt-3 pb-5 mb-0 d-flex justify-content-evenly " >
         <div class="col p-4">

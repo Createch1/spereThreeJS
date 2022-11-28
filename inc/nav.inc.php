@@ -25,12 +25,12 @@
                   <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.in" href="tarifs.php">Tarifs</a>
                 </li>
                 <li class="nav-item dropdown m-2">
-                  <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="contact.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Contact
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="propos.php">A propos de nous</a></li>
-                    <li><a class="dropdown-item" href="#">Nous contacter</a></li>
+                    <li><a class="dropdown-item" href="contact.php">Nous contacter</a></li>
                     <li><a class="dropdown-item" href="conseil.php">Conseils</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="faq.php">FAQ</a></li>

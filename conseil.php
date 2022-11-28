@@ -2,7 +2,7 @@
 include 'inc/init.inc.php';
 include 'inc/function.inc.php';
 include 'inc/header.inc.php';
-include 'inc/nav.index.inc.php';
+include 'inc/nav.inc.php';
 ?> 
 
 <?php 

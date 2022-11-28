@@ -44,3 +44,6 @@ include 'inc/nav.inc.php';
   </div>
 </div>
 </main>
+<?php 
+include 'inc/footer.inc.php';
+?>
