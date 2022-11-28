@@ -211,3 +211,10 @@ h2 {
 #icone{
     height: 50px;
 }
+
+@media(min-width: 400px) and (max-width: 1920px)
+{
+.index {
+    width: 100%;
+    }
+}

@@ -5,7 +5,6 @@ include 'inc/header.inc.php';
 include 'inc/nav.index.inc.php';
 
 ?> 
-  <body>
   <canvas id="canvas"></canvas>
   <div class="maintitle">
   <h1>Créer, c'est
@@ -269,4 +268,4 @@ renderer.render( scene, camera );
     </div>
   <!-- fin script sphere JS --> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</body>
+  </body>
