@@ -185,3 +185,29 @@ h2 {
     padding: 0 60px;
     text-align: justify;
 }
+
+/* CSS DU BOUTTON QUI RENVOIE EN HAUT DE PAGE */
+#btt{
+    opacity:0;
+    height: 60px;
+    width: 60px;
+    background: #a0e7ff;;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    margin:10px;
+    right:20px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+
+#icone{
+    height: 50px;
+}

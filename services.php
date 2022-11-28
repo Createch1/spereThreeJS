@@ -27,5 +27,6 @@ include 'inc/nav.inc.php';
 
 
 <?php 
+include 'inc/button.scroll.inc.php';
 include 'inc/footer.inc.php';
 ?>

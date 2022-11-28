@@ -7,7 +7,7 @@ include 'inc/nav.inc.php';
   <div class="page_tarif">
     <h1>Nos forfaits</h1>
     <br>
-      <p class="first_p">Chez Createch informatique </p>
+      <p class="first_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam in ipsum nisi perspiciatis ipsa magnam numquam, accusantium eius necessitatibus hic atque dolore consequatur nulla aperiam autem consequuntur voluptate, vitae quibusdam voluptatibus. Unde, dolorum rem. Numquam itaque perspiciatis tempora similique fugit velit harum! Et, aut placeat officia, libero eaque veritatis modi iure animi eveniet odit dolor expedita, cumque qui numquam praesentium laborum! Cum, exercitationem excepturi ut numquam in facere corporis beatae provident perferendis consequuntur veritatis aut perspiciatis officia accusamus et itaque eaque vel harum? Exercitationem nostrum voluptate dignissimos officia, temporibus repellat illum ullam. Quod laudantium quam, neque dicta fuga repudiandae!</p>
       <div class="container">      
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-1 pt-3 pb-5 mb-0 d-flex justify-content-evenly " >
         <div class="col p-4">
@@ -41,7 +41,7 @@ include 'inc/nav.inc.php';
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>gejhrbfkjerjfejrngknerjfergrtget</p>
                 </div>               
-            </div>
+              </div>
             <div class="bouton-en-bas">
               <div class="button ">
               <button type="button" class="btn btn-outline-primary justify-content-center" >À partir de 49,99€</button>
@@ -99,7 +99,7 @@ include 'inc/nav.inc.php';
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus</p>
-                </div>
+              </div>
               
             </div>
             <div class="bouton-en-bas">
@@ -132,9 +132,9 @@ include 'inc/nav.inc.php';
       </div>
     </div>
     </main>
-    </div>
+    </div> 
   </div>
-
 <?php 
+include 'inc/button.scroll.inc.php'; //INCLUSION DU BOUTON QUI FAIT REMONTER VERS LE HAUT  
 include 'inc/footer.inc.php';
 ?>
