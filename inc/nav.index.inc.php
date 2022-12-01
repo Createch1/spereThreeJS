@@ -30,10 +30,6 @@
                     <li><a class="dropdown-item" href="faq.php">FAQ</a></li>
                   </ul>
                 </li>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-sm-2" type="search" placeholder="Saisissez..." aria-label="Search">
-                  <button class="btn btn-outline-primary" type="submit">Rechercher</button>
-                </form>
               </ul>
             </div>
           </div>
