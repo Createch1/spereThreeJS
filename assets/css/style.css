@@ -122,7 +122,7 @@ canvas{
     opacity: 1;
 }
 /* ECRITURE ANIMÉE DE LA PAGE INDEX */
-.maintitle {
+#maintitle {
     position: relative;
     padding: 150px;
     margin: 40px;
@@ -257,7 +257,7 @@ canvas{
         left: 0px !important;
     }
 
-    .maintitle {
+    #maintitle {
         font-size:smaller;
         display: inline;
         position: relative;
@@ -279,7 +279,7 @@ canvas{
         position: relative !important;
         left: 50px !important;
     }
-    .maintitle {
+    #maintitle {
         font-size: smaller;
         display: inline;
         position: relative;
