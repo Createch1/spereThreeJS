@@ -248,13 +248,9 @@ canvas{
     width: 100%;
     }
 }
-Sinaï
-Updated upstream
+
 
 @media(min-width: 450px) and (max-width: 800px)
-
-@media(max-width: 460px)
-
 {
    canvas {
         position: relative !important;
@@ -268,6 +264,9 @@ Updated upstream
         top: -230px;
         left: 0px;
     }
+}
+
+
 
 
 @media(min-width: 800px) and (max-width: 1920px)
@@ -284,7 +283,4 @@ Updated upstream
         left: 0px;
     }
 }
-
-}
-
 
