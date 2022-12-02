@@ -1,12 +1,18 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 html {
     height: 100vh;
 }
+/* MISE EN FORME DE LA PAGE INDEX */
 .index{
     overflow:hidden;
 }
-
-.scroll_de_tarif{
+/* SCROLL DE LA PAGE TARIF ET SERVICES À METTRE JUSTE APRES LE BODY */
+.scroll{
     overflow: auto;
 }
 
@@ -14,17 +20,13 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
-    color: a0e7ff;
-}
-.background_tarif{
-    background-color: rgb(53, 66, 94);
-}
-
-body {
-    padding: 0;
-    margin: 0;
     background-color: #202020 ;
 }
+
+.background_tarif{
+    background-color: rgba(112, 193, 255, 0.566);
+}
+
 
 a.navbar-brand {
     color: #a0e7ff;
@@ -48,7 +50,7 @@ a.nav-link:hover {
     transform: translateY(-5px);
 }
 
-h1,h2 {
+.index h1,h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
     margin: 0.4em 0;
@@ -72,9 +74,6 @@ h2 {
     z-index:2;  
 }
 
-.nav-bar{
-
-}
 
 .close-navbar-toggler{     
     position:absolute;
@@ -101,39 +100,160 @@ h2 {
     box-sizing: border-box;
     width: 200px;
     height: 200px;
-    transition: all linear 200ms;
+    transition: all linear 400ms;
 }
 .card:hover {
-    transform: translateY(-20px);
+    transform: translateY(-30px);
+    box-shadow: 0 0 3em rgb(255, 255, 255);
 }    
+
 .button{
     display: flex;
     text-align: center;
     margin-bottom: 20px;
 }
 
-#canvas {
+canvas{
     position: relative !important;
-    left: 500px !important;
+    left: -450px !important;
 }
 
 .nav-bar {
     opacity: 1;
 }
-
+/* ECRITURE ANIMÉE DE LA PAGE INDEX */
 .maintitle {
     position: relative;
     padding: 150px;
     margin: 40px;
 }
-
-
+/* MISE EN FORME DES PHOTOS DES CARDS PAGES TARIFS */
 .card-img-top{
     height: 220px;
 }
+
 
 /*services container {
     text-align: center;
     background-color:whitesmoke;
     .row
 }*/
+
+/* LA PAGE SERVICES EN GÉNÉRALE */
+.page_services h1 {
+    text-align: center;
+    font-size: 60px;
+    color:  rgb(37, 143, 204);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px 0 20px 0;
+}
+/* TITRE DES DIFFERENTS SERVICES */
+.page_services .sous-titre {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 51, 96);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* LA PAGE TARIF EN GÉNÉRALE */
+.page_tarif h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 51, 96);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px 0 0 0;
+}
+/* MISE EN FORME DE LA GRILLE*/
+.grille{
+    max-width: 1700px;
+    width: 90%;
+    height: auto;
+    margin: 30px auto 0 auto;
+    padding:0 0 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 360px); 
+    justify-content: center;
+    grid-gap: 25px;
+}
+/*MISE EN FORME DES GRID SEULEMENT*/
+.grid-item{
+    width: 360px;
+    height: 360px;
+    background: rgb(194, 194, 194);
+    border-radius: 10px;
+    transition: all 1s ease;
+    transform: scale(1.00);
+    padding: 15px;
+    margin: 5px;
+}
+
+.grid-item:hover{
+    width: 360px;
+    height: 360px;
+    background: rgb(194, 194, 194);
+    border-radius: 10px;
+    box-shadow: #202020;
+    transform: scale(1.07);
+    transition: all 1s ease; 
+    box-shadow: 0em 0 3em rgb(255, 255, 255);
+}
+
+.grid-title{
+    font-size: 20px;
+    color: #1e6091;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* PREMIER PARAGRAPHE APRES LE TITRE */
+.first_p{
+    padding: 0 60px;
+    text-align: justify;
+}
+
+/* CSS DU BOUTTON QUI RENVOIE EN HAUT DE PAGE */
+#btt{
+    opacity:0;
+    height: 60px;
+    width: 60px;
+    background: #a0e7ff;;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    margin:10px;
+    right:20px;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+
+#icone{
+    height: 50px;
+}
+
+/* LOGO DU NAVBAR*/
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+@media(min-width: 400px) and (max-width: 1920px)
+{
+.index {
+    width: 100%;
+    }
+}
+
+@media(max-width: 460px)
+{
+   canvas {
+        position: relative !important;
+        left: 0px !important;
+    }
+}
+

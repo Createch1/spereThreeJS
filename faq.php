@@ -7,7 +7,9 @@ include 'inc/nav.inc.php';
 
 <div class="container">
 <div class="accordion" id="accordionPanelsStayOpenExample">
-    
+ 
+<main class="container">
+<div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -49,3 +51,8 @@ include 'inc/nav.inc.php';
 
 </div>
 </div>
+</div>
+</main>
+<?php 
+include 'inc/footer.inc.php';
+?>
