@@ -226,3 +226,36 @@ h2 {
     }
 }
 
+<<<<<<< Updated upstream
+=======
+@media(min-width: 450px) and (max-width: 800px)
+{
+   canvas {
+        position: relative !important;
+        left: 0px !important;
+    }
+    .maintitle {
+        font-size:xx-small;
+        display: inline;
+        position: relative;
+        top: -230px;
+        left: 0px;
+    }
+
+
+@media(min-width: 800px) and (max-width: 1920px)
+{
+   canvas {
+        position: relative !important;
+        left: 50px !important;
+    }
+    .maintitle {
+        font-size: smaller;
+        display: inline;
+        position: relative;
+        top: -200px;
+        left: 0px;
+    }
+}
+
+>>>>>>> Stashed changes
