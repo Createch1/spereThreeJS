@@ -5,9 +5,9 @@ include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 ?>
 <main class="container background_tarif">
-<div class="row featurette m-3">
+<div class="row featurette m-3 p-3">
     <div class="col-md-7">
-        <h3 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h3>
+        <h3 class="featurette-heading">Qui sommes-nous ?</h3>
         <p class="lead">Createch Informatique est une entreprise située en Seine-Saint-Denis (Tremblay-en-
 France). Notre expérience client et technique nous ont conduit à créer en toute logique
 Createch Informatique en proposant des services et prestations de qualité.
@@ -27,9 +27,9 @@ des grandes marques du marché (Asus, Acer, HP, Lenovo, Toshiba, Dell….)</p>
 <hr class="featurette-divider">
 
 
-<div class="row featurette m-3">
+<div class="row featurette m-3 p-3">
     <div class="col-md-7 order-md-2">
-        <h3 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h3>
+        <h3 class="featurette-heading">Pourquoi CREATECH Informatique a été créée ?</h3>
         <p class="lead">CREATECH Informatique a été créée pour répondre aux différents besoins de satisfaire la clientèle et
 de contribuer à améliorer l’expérience client au travers du service à la personne, de conseils,
 dépannages informatique et création de sites web sur-mesure.</p>
@@ -46,7 +46,7 @@ dépannages informatique et création de sites web sur-mesure.</p>
 
 <hr class="featurette-divider">
 
-<div class="row featurette m-3 ">
+<div class="row featurette m-3 p-3">
     <div class="col-md-7">
         <h3 class="">Nos périmètres d’action </h3>
         <p class="lead">De nos jours, l’outil informatique est de plus en plus utilisé que ce soit à titre personnel ou
@@ -62,13 +62,13 @@ votre ordinateur et vous êtes rapidement dépanner.</p>
     <div class="col-md-5">
         <img src="https://images.prismic.io/govirtuo/bc0439a3-b3ff-4deb-9d0d-00e701b230c9_Virtuo_Drive_Free-62.jpg?auto=compress,format&w=1920&q=75" alt="" class="w-100 rounded">
     </div>
-    <div class="col-md-6 m-auto">
+    <div class="col-md-6 m-auto p-3">
         <h4>Intervention à Domicile</h4>
         <p>Pour les interventions à Domicile, nous nous déplaçons sur l’ensemble de la commune
 Tremblaysienne et dans un rayon de 30 Km de Tremblay-en-France.</p>
     </div>
 
-    <div class="col-md-6 m-auto">
+    <div class="col-md-6 m-auto p-3">
         <h4>Intervention à Distance</h4>
         <p>Nous intervenons sur l’ensemble du territoire Français. Que
 vous soyez en Corse, Paris, Lyon, Marseille, Toulouse ou dans un petit village, nous pouvons
@@ -79,7 +79,7 @@ Evidemment, cela nécessite d’avoir une connexion internet active et fonctionn
 
 
 <!-- profil sphere -->
-<div class="row d-flex justify-content-evenly text-center">
+<div class="row d-flex justify-content-evenly text-center p-3">
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
@@ -99,6 +99,20 @@ Evidemment, cela nécessite d’avoir une connexion internet active et fonctionn
         <p>And lastly this, the third column of representative placeholder content.</p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+
+    <hr>
+     <div class="row m-auto text-center p-3">
+        <div class="col-md">
+            <h5>Nos disponibilités</h5>
+            <p>Home IT est ouvert du lundi au vendredi de 09h à 19h et le samedi de 09h à 13h. <br>
+Pour obtenir une assistance ou besoin de conseils, vous pouvez nous contacter soit par :
+<li> Téléphone : 0650605752
+<li> Mail : createchinformatique@gmail.com <br>
+Sachez que vous pouvez aussi prendre rendez-vous directement sur notre page Facebook
+CREATECH Informatique :</p><a href="https://www.facebook.com/createch.informatique2022">Cliquez ici.</a>
+        </div>
+        <span>Sachez qu’avec CREATECH Informatique, rien ne se perd, tout se résout.</span>
+     </div>
 </main>
 
 <?php
