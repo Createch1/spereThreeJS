@@ -258,12 +258,16 @@ canvas{
     }
 
     .maintitle {
-        font-size:xx-small;
+        font-size:smaller;
         display: inline;
         position: relative;
         top: -230px;
         left: 0px;
     }
+    .navbar-brand {
+        font-size:smaller;
+    }
+    
 }
 
 
@@ -283,4 +287,3 @@ canvas{
         left: 0px;
     }
 }
-
