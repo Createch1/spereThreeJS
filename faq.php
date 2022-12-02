@@ -4,6 +4,10 @@ include 'inc/function.inc.php';
 include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 ?>
+
+<div class="container">
+<div class="accordion" id="accordionPanelsStayOpenExample">
+ 
 <main class="container">
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
@@ -18,6 +22,7 @@ include 'inc/nav.inc.php';
       </div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
@@ -30,6 +35,7 @@ include 'inc/nav.inc.php';
       </div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
@@ -42,6 +48,9 @@ include 'inc/nav.inc.php';
       </div>
     </div>
   </div>
+
+</div>
+</div>
 </div>
 </main>
 <?php 

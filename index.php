@@ -5,6 +5,7 @@ include 'inc/header.inc.php';
 include 'inc/nav.index.inc.php';
 
 ?> 
+<!-- isma test-->
   <canvas id="canvas"></canvas>
   <div class="maintitle">
   <h1>Créer, c'est
