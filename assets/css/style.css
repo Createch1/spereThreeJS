@@ -131,6 +131,14 @@ canvas{
 .card-img-top{
     height: 220px;
 }
+
+
+/*services container {
+    text-align: center;
+    background-color:whitesmoke;
+    .row
+}*/
+
 /* LA PAGE SERVICES EN GÉNÉRALE */
 .page_services h1 {
     text-align: center;
@@ -248,3 +256,4 @@ canvas{
         left: 0px !important;
     }
 }
+
