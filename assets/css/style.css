@@ -136,7 +136,7 @@ canvas{
 
 /* BACKGROUND DE TOUTE LES PAGES */
 .background_tarif{
-    background-image: linear-gradient(to right, #1f67fe 0%, #4b8aff 60%, #08b4ba 100%); 
+    background-image: linear-gradient(to right, #3262a8 0%, #44c0e2db 30%,#44c0e2db 70%, #409cd4c9 100%); 
 }
 /* LA PAGE SERVICES EN GÉNÉRALE */
 .page_services h1 {
@@ -148,7 +148,7 @@ canvas{
     -webkit-background-clip:text;
     color:transparent;
     */
-    color:#8ecae6;
+    color:#3262a8d6;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 50px 0 20px 0;
 }
@@ -156,14 +156,14 @@ canvas{
 .page_services .sous-titre {
     text-align: center;
     font-size: 45px;
-    color: #8ecae6;
+    color: #3262a8d6;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 /* LA PAGE TARIF EN GÉNÉRALE */
 .page_tarif h1{
     text-align: center;
     font-size: 60px;
-    color:  rgb(178, 160, 0);
+    color:  #3261a8d6;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 50px 0 0 0;
 }
