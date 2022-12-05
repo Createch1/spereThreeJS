@@ -201,6 +201,11 @@ canvas{
 /* PAGE SERVICES POUR GRAND ECRAN */
 @media(min-width: 1400px) and (max-width: 1920px)
 {
+    .first_p{
+        padding: 0 60px;
+        text-align: justify;
+        font-size: large;
+    }
     .grille{
         width: 90%;
         height: auto;
@@ -270,6 +275,12 @@ canvas{
 /* PAGE SERVICES POUR PETIT ECRAN */
 @media(min-width: 319px) and (max-width: 1400px)
 {
+    /* PREMIER PARAGRAPHE APRES LE TITRE */
+    .first_p{
+    padding: 0 60px;
+    text-align: justify;
+    font-size: medium;
+    }
     .grille{
         max-width: 1400px;
         width: 90%;
@@ -311,11 +322,6 @@ canvas{
         color: #1e6091;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-}
-/* PREMIER PARAGRAPHE APRES LE TITRE */
-.first_p{
-    padding: 0 60px;
-    text-align: justify;
 }
 
 /* BOUTTON QUI RENVOIE EN HAUT DE PAGE */
