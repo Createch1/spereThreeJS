@@ -3,11 +3,10 @@ include 'inc/init.inc.php';
 include 'inc/function.inc.php';
 include 'inc/header.inc.php';
 include 'inc/nav.index.inc.php';
-
 ?> 
 <!-- isma test-->
   <canvas id="canvas"></canvas>
-  <div class="maintitle">
+  <div id="maintitle">
   <h1>Créer, c'est
     <span
         class="txt-rotate"
