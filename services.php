@@ -4,13 +4,14 @@ include 'inc/function.inc.php';
 include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 ?>
-<!-- 
+
 <div class="page_services">
   <h1>Nos services</h1>
       <p class="first_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio animi, quae eligendi ullam deleniti possimus distinctio commodi molestiae neque temporibus dicta iste, voluptatibus nesciunt qui debitis nisi blanditiis natus amet inventore nam? Voluptate optio atque assumenda, tempora ipsam tenetur harum aliquid deserunt aut soluta? Modi, quasi esse? Cupiditate, quod saepe! </p>
         <div class="sous-titre">
         Montage de PC sur mesure
-        </div>      
+        </div>  
+            
         <div class="grille">
           <div class="grid-item">
             <div class="grid-image">
@@ -158,7 +159,7 @@ include 'inc/nav.inc.php';
           <div class="sous-titre">
           Prestations PC portable
           </div>
-          <div class="grille" style="max-width: 1000px;">
+          <div class="grille" >
           <div class="grid-item">
             <div class="grid-image">
                 
@@ -223,7 +224,7 @@ include 'inc/nav.inc.php';
           <div class="sous-titre">
           Prestations sur mesure
           </div>
-          <div class="grille" style="max-width: 1000px;">                  
+          <div class="grille" >                  
           <div class="grid-item">
             <div class="grid-image">
                 
@@ -284,8 +285,7 @@ include 'inc/nav.inc.php';
 
             </div>
           </div>    
-          </div>
-          <div class="grille" style="max-width: 1000px; ">        
+        
           <div class="grid-item">
             <div class="grid-image">
                 
@@ -307,12 +307,10 @@ include 'inc/nav.inc.php';
             <div class="grid-text">
 
             </div>
-          </div>                                                                        
-        </div>
-          <div class="grille" style="max-width: 1000px; ">        
+          </div>                                                                                
           <div class="grid-item">
             <div class="grid-image">
-                
+            
             </div>
             <div class="grid-title">
             Sauvegarde et transfert de données
@@ -334,7 +332,7 @@ include 'inc/nav.inc.php';
           </div>                                                                        
         </div>
 </div>
--->
+<!--
 <div class="container">      
       <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-1 pt-3 pb-5 mb-0 d-flex justify-content-evenly " >
         <div class="col p-4">
@@ -458,7 +456,7 @@ include 'inc/nav.inc.php';
         </div>
       </div>
     </div>
-
+-->
 <?php 
 include 'inc/button.scroll.inc.php';
 include 'inc/footer.inc.php';
