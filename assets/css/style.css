@@ -156,6 +156,16 @@ canvas{
 /* PAGE SERVICES POUR TRES GRAND ECRAN */
 @media(min-width: 1920px) and (max-width: 5000px)
 {
+    .grid-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0;
+    }
+    .first_p{
+        padding: 0 150px;
+        text-align: justify;
+        font-size: 20px;
+    }
     .grille{
         width: 90%;
         height: auto;
@@ -168,8 +178,8 @@ canvas{
         flex-wrap: wrap;
     }
     .grid-item{
-        width: 450px;
-        height: 540px;
+        width: 350px;
+        height: 520px;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         transition: all 1s ease;
@@ -180,8 +190,8 @@ canvas{
     }
     
     .grid-item:hover{
-        width: 450px;
-        height: 540px;
+        width: 350px;
+        height: 520px;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         box-shadow: #202020;
@@ -190,21 +200,28 @@ canvas{
         box-shadow: 0em 0 3em rgb(255, 255, 255);
     }
     .grid-title{
-        font-size: 35px;
+        font-size: 25px;
         color: #1e6091;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 5px 0 5px 0;
     }
     .grid-text{
-        font-size: 25px;
+        font-size: 20px;
+        text-align: justify;
     }
 }
 /* PAGE SERVICES POUR GRAND ECRAN */
 @media(min-width: 1400px) and (max-width: 1920px)
 {
+    .grid-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0 0;
+    }
     .first_p{
-        padding: 0 60px;
+        padding: 0 90px;
         text-align: justify;
-        font-size: large;
+        font-size: 18px;
     }
     .grille{
         width: 90%;
@@ -219,19 +236,19 @@ canvas{
     }
     .grid-item{
         width: 320px;
-        height: 380px;
+        /* height: 480px; */ height: auto;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         transition: all 1s ease;
         transform: scale(1.00);
-        padding: 15px;
-        margin: 5px;
+        padding: 10px; 
+        margin: 5px; 
         align-items: center;
     }
     
     .grid-item:hover{
         width: 320px;
-        height: 380px;
+        /* height: 480px; */ height: auto;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         box-shadow: #202020;
@@ -245,12 +262,18 @@ canvas{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     .grid-text{
-        font-size: large;
+        font-size: 18px;
+        text-align: justify;
     }
 }
 /* PAGE SERVICES POUR TRES PETIT ECRAN */
 @media(min-width: 319px) and (max-width: 700px)
 {
+    .grid-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0 0;
+    }
     .page_services h1 {
         text-align: center;
         font-size: 50px;
@@ -271,15 +294,23 @@ canvas{
         color: #3262a8d6;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+    .grid-text{
+        text-align: justify;
+    }
 }
 /* PAGE SERVICES POUR PETIT ECRAN */
 @media(min-width: 319px) and (max-width: 1400px)
 {
+    .grid-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0 0;
+    }
     /* PREMIER PARAGRAPHE APRES LE TITRE */
     .first_p{
-    padding: 0 60px;
-    text-align: justify;
-    font-size: medium;
+        padding: 0 60px;
+        text-align: justify;
+        font-size: medium;
     }
     .grille{
         max-width: 1400px;
@@ -296,7 +327,7 @@ canvas{
     /*MISE EN FORME DES GRID SEULEMENT*/
     .grid-item{
         width: 270px;
-        height: 360px;
+        /* height: 360px; */ height: auto;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         transition: all 1s ease;
@@ -308,7 +339,7 @@ canvas{
     
     .grid-item:hover{
         width: 270px;
-        height: 360px;
+        /* height: 360px; */ height: auto;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         box-shadow: #202020;
@@ -321,6 +352,9 @@ canvas{
         font-size: 20px;
         color: #1e6091;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .grid-text{
+        text-align: justify;
     }
 }
 
@@ -352,8 +386,8 @@ canvas{
 
 /* LOGO DU NAVBAR*/
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     margin-left: 10px;
 }
 
