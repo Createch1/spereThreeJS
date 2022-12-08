@@ -215,7 +215,7 @@ canvas{
 {
     .grid-image{
         width: 100%;
-        height: auto;
+        height: 180px;
         border-radius: 5px 5px 0 0;
     }
     .first_p{
@@ -236,7 +236,7 @@ canvas{
     }
     .grid-item{
         width: 320px;
-        /* height: 480px; */ height: auto;
+        height: auto;
         background: rgb(194, 194, 194);
         border-radius: 10px;
         transition: all 1s ease;
@@ -303,7 +303,7 @@ canvas{
 {
     .grid-image{
         width: 100%;
-        height: auto;
+        height: 140px;
         border-radius: 5px 5px 0 0;
     }
     /* PREMIER PARAGRAPHE APRES LE TITRE */

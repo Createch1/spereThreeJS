@@ -30,12 +30,12 @@ include 'inc/nav.inc.php';
             </div>
             <div class="grid-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-           </div>
+            </div>
           </div>
           <div class="grid-item">
-          <img src=" " class="grid-image">
+          <img src="https://st2.depositphotos.com/3591429/11911/i/600/depositphotos_119114344-stock-photo-woman-working-with-laptop.jpg" class="grid-image">
             <div class="grid-title">
-            Montage d’un ordinateur + Installation logiciel simple ou complexe 
+            Montage d’un ordinateur + Installation logiciel  
             </div>
             <div class="grid-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
@@ -47,7 +47,7 @@ include 'inc/nav.inc.php';
           </div>
           <div class="grille">
           <div class="grid-item">
-            <img src=" " class="grid-image">
+            <img src=" https://st2.depositphotos.com/2315957/5366/i/600/depositphotos_53661045-stock-photo-computer-cleaning.jpg" class="grid-image">
             <div class="grid-title">
             Dépoussiérage 
             </div>
@@ -275,6 +275,7 @@ include 'inc/nav.inc.php';
             </div>
             <div class="grid-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+
             </div>
           </div>                                                                        
         </div>
