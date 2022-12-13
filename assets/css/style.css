@@ -205,10 +205,10 @@ canvas{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         margin: 5px 0 5px 0;
     }
-    .grid-text{
+    /*  .grid-text{
         font-size: 20px;
         text-align: justify;
-    }
+    } . */
 }
 /* PAGE SERVICES POUR GRAND ECRAN */
 @media(min-width: 1400px) and (max-width: 1920px)
@@ -264,7 +264,7 @@ canvas{
     .grid-text{
         font-size: 18px;
         text-align: justify;
-    }
+    } 
 }
 /* PAGE SERVICES POUR TRES PETIT ECRAN */
 @media(min-width: 319px) and (max-width: 700px)
@@ -294,9 +294,9 @@ canvas{
         color: #3262a8d6;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    .grid-text{
+    /* .grid-text{
         text-align: justify;
-    }
+    } */
 }
 /* PAGE SERVICES POUR PETIT ECRAN */
 @media(min-width: 319px) and (max-width: 1400px)
@@ -353,10 +353,7 @@ canvas{
         color: #1e6091;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    .grid-text{
-        text-align: justify;
-    }
-}
+}   
 
 /* BOUTTON QUI RENVOIE EN HAUT DE PAGE */
 #btt{
