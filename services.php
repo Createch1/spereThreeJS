@@ -80,7 +80,10 @@ include 'inc/nav.inc.php';
             Désinfection d’un ordinateur ( virus/malware )
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            Votre PC en Windows est infecté par des virus et malwares.
+            Vous cherchez donc à désinfecter votre PC afin de supprimer des virus.
+            Désinfecter un système peut endommager son système.
+            Cela dépend du degré d’infection, le type de logiciels malveillants.
             </div>
           </div>
           <div class="grid-item">
@@ -89,7 +92,7 @@ include 'inc/nav.inc.php';
             démontage / remontage 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            Pour une réinstallation complète avec câble management, il faut réserver en tant que montage complet et préciser qu’il y a besoin d’un démontage préalable des pièces installées. Une photo de l’état actuel de la machine vous sera demandée pour nous permettre d’évaluer le travail à faire.
             </div>
           </div>
           <div class="grid-item">
@@ -98,7 +101,7 @@ include 'inc/nav.inc.php';
             démontage / remontage complexe 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            Le démontage et remontage complexe a le même principe que le démontage et remontage normal mais la chose qui change ici est l'ajout de composant complexe par exemple: l'AIO (watercooling). La tarification n'est dans ce cas la pas la même.
             </div>
           </div>
           <div class="grid-item">
