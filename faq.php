@@ -12,79 +12,89 @@ include 'inc/nav.inc.php';
 <p>Veuillez verifier si votre question n'est pas parmis les question ci-dessous, sinon veullez nous fairevotres demande dans la page contact <!-- lien vers page contact--></p>
 
 
-<div class="accordion p-4" id="myAccordion">
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingOne">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">QU'EST CE QUE LA RESTAURATION DU SYSTÈME?</button>									
-            </h5>
-            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>La Restauration du système vous aide à restaurer les fichiers système de votre ordinateur à un point antérieur dans le temps. <br>
+<div class="accordion" id="accordionExample1">
+  <div class="row">
 
-Cela permet d'annuler les modifications du système sans affecter vos fichiers personnels, tels que le courrier électronique, les documents ou les photos.
-</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingTwo">
-                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">COMMENT SE CONNECTER À UN RÉSEAU WIFI?</button>
-            </h5>
-            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>Il est parfois utile de se connecter à internet sans fil.
-Nous allons vous expliquer comment en profiter.
-Pour effectuer la connexion de votre ordinateur en wifi vous pouvez suivre la procédure guidée de Windows.
-Cette opération est extrêmement rapide.
-Tout ce que vous avez à faire, est de suivre les étapes proposées et d'entrer les données qui vous sont demandées. <br> 
-Affichez les réseaux wifi disponibles
-Pour afficher les réseaux sans fil à proximité de votre ordinateur, cliquez sur l'icône wifi qui se situe au coin inferieur droit de votre écran (à côté de l'horloge Windows, voir image ci-dessous).<br>
-<img src="" alt="reseau"> <br><br>
- 
-
-Retrouvez votre réseau
-En cliquant de nouveau avec le bouton droit sur l'icône des réseaux de Windows, choisissez de vous connecter à votre réseau. Si vous avez caché le SSID du réseau, choisissez la connexion manuelle et spécifiez dès à présent son nom.
-
-
-</p>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingThree">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">PROTÉGER SES ENFANTS SUR INTERNET</button>                     
-            </h5>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingThree">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">3. What is CSS?</button>                     
-            </h5>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h5 class="accordion-header" id="headingThree">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">3. What is CSS?</button>                     
-            </h5>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
-                </div>
-            </div>
-        </div>
+    <div class="col-sm-6">
+      <div class="accordion-item">
+    <h3 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What is the purpose of a FAQ?
+      </button>
+    </h3>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
     </div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What is a FAQ document?
+      </button>
+    </h3>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What are the top 10 interview questions?
+      </button>
+    </h3>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="col-sm-6">
+      <div class="accordion-item">
+    <h3 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What is the purpose of a FAQ?
+      </button>
+    </h3>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What is a FAQ document?
+      </button>
+    </h3>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What are the top 10 interview questions?
+      </button>
+    </h3>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div> 
+
+</div>
+</div>
 <!--<div class="accordion accordion-flush mb-3" id="accordionFlushExample">
 
   <div class="accordion-item">
