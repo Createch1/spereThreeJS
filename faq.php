@@ -6,7 +6,7 @@ include 'inc/nav.inc.php';
 ?>
 
  
-<main class="container">
+<main class="container p-5">
 <h3>FAQ</h3>
 <h4>Vous avez des questions ? Et vous souhaitez avoir plus de precision sur votre demande ?</h4>
 <p>Veuillez verifier si votre question n'est pas parmis les question ci-dessous, sinon veullez nous fairevotres demande dans la page contact <!-- lien vers page contact--></p>
@@ -15,7 +15,7 @@ include 'inc/nav.inc.php';
 <div class="accordion p-5" id="accordionExample1 ">
   <div class="row">
 
-    <div class="col-m-6">
+    <div class="col-md-6">
       <div class="accordion-item">
     <h3 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -53,7 +53,7 @@ Vous intervenez sous quels délais?      </button>
   </div>
 </div> 
 
-<div class="col-m-6">
+<div class="col-md-6">
       <div class="accordion-item">
     <h3 class="accordion-header" id="headingFour">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
