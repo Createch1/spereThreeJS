@@ -4,10 +4,11 @@ include 'inc/function.inc.php';
 include 'inc/header.inc.php';
 include 'inc/nav.inc.php';
 ?> 
-<main class="container">
-<h3>FAQ</h3>
-<h4>Vous avez des questions ? Et vous souhaitez avoir plus de precision sur votre demande ?</h4>
-<p>Veuillez verifier si votre question n'est pas parmis les question ci-dessous, sinon veullez nous fairevotres demande dans la page contact <!-- lien vers page contact--></p>
+<main class="container p-5">
+<h3>Conseils</h3>
+<h4>Vous avez des difficultés lorsque vous utiisez votre ordinateur ?</h4>
+<p>Vous pouvez voir ci-dissous quelques conseils d'utilisation. Si vous ne trouvez pas votre bonheur, vous pouvez essayer notre page <a href="#">FAQ</a> <!-- lien vers page contact--></p>
+
 
 
 <div class="accordion p-4" id="myAccordion">
