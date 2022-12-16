@@ -18,7 +18,7 @@ include 'inc/nav.inc.php';
             </h5>
             <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
-                    <p>La Restauration du système vous aide à restaurer les fichiers système de votre ordinateur à un point antérieur dans le temps. <br>
+                    <p class="p-3">La Restauration du système vous aide à restaurer les fichiers système de votre ordinateur à un point antérieur dans le temps. <br>
 
 Cela permet d'annuler les modifications du système sans affecter vos fichiers personnels, tels que le courrier électronique, les documents ou les photos.
 </p>
@@ -33,7 +33,7 @@ Cela permet d'annuler les modifications du système sans affecter vos fichiers p
             </h5>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
-                    <p>Il est parfois utile de se connecter à internet sans fil.
+                    <p class="p-3">Il est parfois utile de se connecter à internet sans fil.
 Nous allons vous expliquer comment en profiter.
 Pour effectuer la connexion de votre ordinateur en wifi vous pouvez suivre la procédure guidée de Windows.
 Cette opération est extrêmement rapide.
@@ -59,7 +59,7 @@ En cliquant de nouveau avec le bouton droit sur l'icône des réseaux de Windows
             </h5>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
-                    <p>Internet est un outil fabuleux, rapidement devenu incontournable dans notre vie quotidienne.<br>Nos enfants montrent généralement une grande aisance dans l’usage de cet outil, mais il est nécessaire de les aider à en avoir une utilisation raisonnée, responsable et sûre. C’est par ailleurs un formidable levier au service des apprentissages.<br><br>
+                    <p class="p-3">Internet est un outil fabuleux, rapidement devenu incontournable dans notre vie quotidienne.<br>Nos enfants montrent généralement une grande aisance dans l’usage de cet outil, mais il est nécessaire de les aider à en avoir une utilisation raisonnée, responsable et sûre. C’est par ailleurs un formidable levier au service des apprentissages.<br><br>
 
                     La solution qui vous permet de laisser surfer vos enfants en toute liberté !<br><br>
  
@@ -81,7 +81,7 @@ Assurez-vous que chacun de vos enfants utilise un compte utilisateur différent 
             </h5>
             <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
-                    <p>Si vos mesures préventives n’ont pas étaient suffisantes pour vous éviter une cyberattaque, il reste tout de même possible de limiter les dégâts en appliquant quelques conseils simples.<br>
+                    <p class="p-3">Si vos mesures préventives n’ont pas étaient suffisantes pour vous éviter une cyberattaque, il reste tout de même possible de limiter les dégâts en appliquant quelques conseils simples.<br>
 Grâce à ces simples reflexes, vous pourrez limiter les dégâts causés le programme malveillant en attendant l’intervention de notre service de dépannage informatique.<br>
 
 Gardez votre calme
@@ -112,7 +112,7 @@ Pour éviter d’infecter un autre ordinateur ou de réinfecter le vôtre, il es
             </h5>
             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
-                    <p>Des techniques existent pour tenter de casser les mots de passe.
+                    <p class="p-3">Des techniques existent pour tenter de casser les mots de passe.
 La plus utilisée consiste à faire des essais systématiques à partir de dictionnaires : on connaît l’algorithme de codage des mots de passe, il suffit alors de l’appliquer à des dictionnaires choisis astucieusement  sur internet, et de comparer le résultat à chacune des entrées du fichier système contenant les mots de passe qu’on a réussi à extraire au préalable.
 Par cette technique, on arrive à casser en moyenne plus de 20% des mots de passe d’un fichier en moins d’une heure.
 La loi de composition d’un bon mot de passe doit rendre cette technique inefficace, d’où les règles suivantes :
