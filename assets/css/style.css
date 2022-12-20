@@ -430,7 +430,7 @@ canvas{
         font-size: smaller;
         display: inline;
         position: relative;
-        top: -200px;
+        top: -100px;
         left: 50px;
     }
 }
