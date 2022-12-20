@@ -17,6 +17,6 @@ include 'inc/nav.inc.php';
 </div>
 </div>
 
-<<?php 
+<?php 
 include 'inc/footer.inc.php'
 ?>

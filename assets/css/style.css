@@ -263,7 +263,7 @@ canvas{
     }
     .grid-text{
         font-size: 18px;
-        text-align: justify;
+        /* text-align: justify;*/
     } 
 }
 /* PAGE SERVICES POUR TRES PETIT ECRAN */

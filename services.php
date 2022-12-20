@@ -110,7 +110,8 @@ include 'inc/nav.inc.php';
             Diagnostic disque dur
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            Le disque dur, l'une des parties importantes de l'ordinateur. Étant donné que nous y stockons un grand nombre de fichiers divers, le disque dur peut également tomber en panne pour différentes raisons.
+            Par conséquent, nous devons effectuer un diagnostic du disque dur à l'aide de certains outils de vérification des erreurs de disque, en confirmant ses problèmes, puis en trouvant une solution. 
             </div>
           </div>
           </div> 
@@ -124,7 +125,8 @@ include 'inc/nav.inc.php';
             Optimisation des performances de l’ordinateur 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.             </div>
+            CREATECH s'occupe de l'optimisation des performances de votre ordinateur. Il est important de veiller à ce que le système d'exploitation et les logiciels sois impeccable.
+            </div>
           </div> 
           <div class="grid-item">
           <img src="https://st4.depositphotos.com/14431644/30150/i/600/depositphotos_301507446-stock-photo-handwriting-text-update-concept-meaning.jpg" class="grid-image">
@@ -132,7 +134,7 @@ include 'inc/nav.inc.php';
             Mises à jour du système d’exploitation, des pilotes du système et des logiciels
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            Les mises à jour du système d'exploitation, des pilotes du système et des logiciels peuvent apporter des améliorations de performance, de nouvelles fonctionnalités et des corrections de bugs qui peuvent aider à optimiser les performances de l'ordinateur. Il est important de les maintenir à jour pour bénéficier de ces avantages.
             </div>
           </div> 
           <div class="grid-item">
