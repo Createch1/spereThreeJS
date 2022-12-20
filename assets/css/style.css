@@ -388,6 +388,28 @@ canvas{
     margin-left: 10px;
 }
 
+@media(max-width: 450px)
+{
+    canvas {
+        position: relative !important;
+        left: 0px !important;
+    }
+
+    #maintitle {
+        font-size:smaller;
+        display: inline;
+        position: relative;
+        top: -230px;
+        left: 0px;
+    }
+    .navbar-brand {
+        font-size:smaller;
+    }
+    
+}
+
+
+
 @media(min-width: 400px) and (max-width: 1920px)
 {
 .index {
