@@ -388,7 +388,9 @@ canvas{
     margin-left: 10px;
 }
 
-@media(max-width: 450px)
+/* MODIF SINAI - RESPONSIVE IPHONE 11/12/13
+ */
+@media(min-width: 350px) and (max-width: 450px)
 {
     canvas {
         position: relative !important;
@@ -396,10 +398,10 @@ canvas{
     }
 
     #maintitle {
-        font-size:smaller;
+        font-size:x-small;
         display: inline;
         position: relative;
-        top: -230px;
+        top: -140px;
         left: 0px;
     }
     .navbar-brand {
@@ -407,7 +409,8 @@ canvas{
     }
     
 }
-
+/* FIN MODIF SINAI - RESPONSIVE IPHONE 11/12/13
+ */
 
 
 @media(min-width: 400px) and (max-width: 1920px)
@@ -427,7 +430,7 @@ canvas{
     }
 
     #maintitle {
-        font-size:smaller;
+        font-size: smaller !important;
         display: inline;
         position: relative;
         top: -230px;
