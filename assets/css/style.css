@@ -398,14 +398,14 @@ canvas{
     }
 
     #maintitle {
-        font-size:x-small;
+        font-size: xx-small;
         display: inline;
         position: relative;
-        top: -140px;
+        top: -50px;
         left: 0px;
     }
     .navbar-brand {
-        font-size:smaller;
+        font-size:x-small;
     }
     
 }
