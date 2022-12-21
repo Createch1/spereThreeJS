@@ -37,13 +37,13 @@ Cela permet d'annuler les modifications du système sans affecter vos fichiers p
 Nous allons vous expliquer comment en profiter.
 Pour effectuer la connexion de votre ordinateur en wifi vous pouvez suivre la procédure guidée de Windows.
 Cette opération est extrêmement rapide.
-Tout ce que vous avez à faire, est de suivre les étapes proposées et d'entrer les données qui vous sont demandées. <br> 
-Affichez les réseaux wifi disponibles
+Tout ce que vous avez à faire, est de suivre les étapes proposées et d'entrer les données qui vous sont demandées. <br><br>
+<h6>Affichez les réseaux wifi disponibles </h6>
 Pour afficher les réseaux sans fil à proximité de votre ordinateur, cliquez sur l'icône wifi qui se situe au coin inferieur droit de votre écran (à côté de l'horloge Windows, voir image ci-dessous).<br>
-<img src="" alt="reseau"> <br><br>
+<img src="assets/img/reseau.png" alt="reseau"> <br><br>
  
-
-Retrouvez votre réseau
+ 
+<h6>Retrouvez votre réseau</h6>
 En cliquant de nouveau avec le bouton droit sur l'icône des réseaux de Windows, choisissez de vous connecter à votre réseau. Si vous avez caché le SSID du réseau, choisissez la connexion manuelle et spécifiez dès à présent son nom.
 
 
