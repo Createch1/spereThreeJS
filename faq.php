@@ -9,7 +9,7 @@ include 'inc/nav.inc.php';
 <main class="container p-5">
 <h3>FAQ</h3>
 <h4>Vous avez des questions ? Et vous souhaitez avoir plus de précision sur votre demande ?</h4>
-<p>Veuillez vérifier si votre question n'est pas parmis les question ci-dessous, sinon veullez nous faire votres demande dans la page <a href="">contact</a><!-- lien vers page contact--></p>
+<p>Veuillez vérifier si votre question n'est pas parmis les question ci-dessous, sinon veullez nous faire votres demande dans la page <a href="">contact</a><!-- lien vers page contact (boutton)--></p>
 
 
 <div class="accordion p-5" id="accordionExample1 ">
