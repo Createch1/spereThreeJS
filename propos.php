@@ -77,28 +77,28 @@ Evidemment, cela nécessite d’avoir une connexion internet active et fonctionn
     </div>
 </div>
 
-
-<!-- profil sphere -->
+<!--
+profil sphere 
 <div class="row d-flex justify-content-evenly text-center p-3">
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h5>Heading</h5>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-      </div><!-- /.col-lg-4 -->
+      </div>
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h5>Heading</h5>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-      </div><!-- /.col-lg-4 -->
+      </div>
       <div class="col-lg-4">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h5>Heading</h5>
         <p>And lastly this, the third column of representative placeholder content.</p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+      </div>
+    </div> -->
 
     <hr>
      <div class="row m-auto text-center p-3">
