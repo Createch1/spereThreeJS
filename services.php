@@ -262,8 +262,7 @@ include 'inc/nav.inc.php';
             Sauvegarde et transfert de données
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            La sauvegarde de données est le processus de copie de données sur un support de stockage secondaire afin de les protéger en cas de perte ou de dommage du support de stockage principal. Cela peut être fait manuellement ou automatiquement, en utilisant un logiciel de sauvegarde ou un service de sauvegarde en ligne.            </div>
           </div>            
           <div class="grid-item">
           <img src="https://st3.depositphotos.com/1192060/13012/i/600/depositphotos_130125318-stock-photo-fixing-a-printer-and-clipped.jpg" class="grid-image">
@@ -271,8 +270,7 @@ include 'inc/nav.inc.php';
             Réparation / Configuration imprimantes 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            La réparation et la configuration des imprimantes peuvent être nécessaires lorsque l'imprimante ne fonctionne pas correctement ou que vous souhaitez configurer l'imprimante pour l'utiliser de manière optimale. Cela peut inclure la résolution de problèmes de connexion, de mise en ligne, d'installation de pilotes ou de configuration des paramètres de l'imprimante.            </div>
           </div>                                                                        
         </div>
 </div>
