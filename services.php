@@ -125,8 +125,7 @@ include 'inc/nav.inc.php';
             Optimisation des performances de l’ordinateur 
             </div>
             <div class="grid-text">
-            CREATECH s'occupe de l'optimisation des performances de votre ordinateur. Il est important de veiller à ce que le système d'exploitation et les logiciels sois impeccable.
-            </div>
+            L'optimisation des performances de l'ordinateur consiste à améliorer les performances et la vitesse de votre ordinateur en effectuant diverses opérations de maintenance et de réglage.            </div>
           </div> 
           <div class="grid-item">
           <img src="https://st4.depositphotos.com/14431644/30150/i/600/depositphotos_301507446-stock-photo-handwriting-text-update-concept-meaning.jpg" class="grid-image">
@@ -143,7 +142,7 @@ include 'inc/nav.inc.php';
             Détection et suppression de virus et de programmes malveillants
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            La détection et la suppression de virus et de programmes malveillants (malware en anglais) sont des tâches importantes pour assurer la sécurité de votre ordinateur et de vos données. CREATECH se charge de nettoyer votre ordinateur de tout types de virus.
             </div>
           </div> 
           </div> 
@@ -157,8 +156,7 @@ include 'inc/nav.inc.php';
             Dépoussiérage
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            Le dépoussiérage d'un PC portable est une tâche importante qui permet de maintenir en bon état votre ordinateur et d'améliorer ses performances. La poussière et les autres particules peuvent s'accumuler à l'intérieur de votre ordinateur et obstruer les ventilateurs, ce qui peut entraîner une surchauffe et endommager le matériel.            </div>
           </div> 
           <div class="grid-item">
           <img src="https://st4.depositphotos.com/22662890/31014/i/600/depositphotos_310148378-stock-photo-installing-a-solid-state-drive.jpg" class="grid-image">
@@ -166,7 +164,7 @@ include 'inc/nav.inc.php';
             Installation mémoire / disque dur
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            L'installation de mémoire ou de disques durs supplémentaires peut être une bonne solution pour améliorer les performances de votre ordinateur et augmenter sa capacité de stockage. CREATECH se charge de faire le nécessaire.
             </div>
           </div>
           </div> 
@@ -180,8 +178,7 @@ include 'inc/nav.inc.php';
             Mise à jour d’un BIOS 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            Le BIOS (Basic Input/Output System) est un logiciel intégré à votre ordinateur qui permet à celui-ci de démarrer et de charger le système d'exploitation. Il est important de mettre à jour régulièrement votre BIOS pour bénéficier de nouvelles fonctionnalités et corriger les éventuels problèmes de compatibilité.            </div>
           </div>            
           <div class="grid-item">
           <img src="https://st4.depositphotos.com/13754004/22503/i/600/depositphotos_225031212-stock-photo-man-installing-software-laptop-dark.jpg" class="grid-image">
@@ -189,8 +186,7 @@ include 'inc/nav.inc.php';
             Installation d’un logiciel 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            L'installation d'un logiciel consiste à ajouter un nouveau programme à votre ordinateur en suivant les instructions du fabricant et en sélectionnant l'emplacement d'installation souhaité sur votre disque dur. Cela permet de rendre le logiciel disponible et utilisable sur votre ordinateur.            </div>
           </div>            
           <div class="grid-item">
           <img src="https://st4.depositphotos.com/1001860/22638/i/600/depositphotos_226389788-stock-photo-montreal-canada-november-2018-windows.jpg" class="grid-image">
@@ -198,7 +194,7 @@ include 'inc/nav.inc.php';
             Installation de Windows ou d’un OS non Windows
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            L'installation de Windows ou d'un autre système d'exploitation (OS) consiste à remplacer ou à ajouter un nouveau système d'exploitation sur votre ordinateur. Cela peut être nécessaire si vous voulez changer de système d'exploitation, si vous voulez réinstaller un système d'exploitation sur votre ordinateur.
             </div>
           </div>     
           </div> 
@@ -212,8 +208,7 @@ include 'inc/nav.inc.php';
             30 minutes de main d’œuvre / Dépannage informatique
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            30 minutes de main d'œuvre en dépannage informatique correspondent à une durée de temps pendant laquelle un technicien informatique s'occupe de diagnostiquer et de résoudre un problème sur votre ordinateur. Cela peut inclure la vérification de l'état du matériel, la mise à jour de logiciels, la suppression de virus et de programmes malveillants, etc.            </div>
           </div>            
           <div class="grid-item">
           <img src="https://st.depositphotos.com/1002881/1316/i/600/depositphotos_13167382-stock-photo-48h-delivery.jpg" class="grid-image">
@@ -221,8 +216,7 @@ include 'inc/nav.inc.php';
             Intervention express 48 H
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            Une intervention express en 48 heures en matière de dépannage informatique correspond à une intervention rapide et prioritaire pour résoudre un problème sur votre ordinateur. Cela signifie que le technicien s'engage à intervenir dans les 48 heures suivant votre demande de dépannage, afin de diagnostiquer et de résoudre le problème le plus rapidement possible.             </div>
           </div>
           </div> 
           <div class="sous-titre">
@@ -235,8 +229,7 @@ include 'inc/nav.inc.php';
             Déblocage sessions Windows 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            Le déblocage de sessions Windows consiste à réactiver une session Windows qui a été bloquée suite à un problème ou à une inactivité prolongée. Cela peut être nécessaire lorsque vous êtes déconnecté de votre session Windows sans vous en rendre compte ou lorsque vous avez un problème avec votre ordinateur qui a entraîné le blocage de la session.            </div>
           </div>            
           <div class="grid-item">
           <img src="https://st.depositphotos.com/1546680/3057/i/600/depositphotos_30576179-stock-photo-internet-routers.jpg" class="grid-image">
@@ -244,7 +237,7 @@ include 'inc/nav.inc.php';
             Installation box, CPL et répéteurs WIFI 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
+            L'installation d'une box, d'un CPL (Courant Porteur en Ligne) et de répéteurs WiFi consiste à configurer et à mettre en place ces équipements pour améliorer la couverture et la qualité de votre réseau WiFi. Si vous avez des difficultés ou des doutes, vous pouvez consulter le manuel d'utilisation ou faire appel à un technicien informatique.
             </div>
           </div>            
           <div class="grid-item">
@@ -253,8 +246,7 @@ include 'inc/nav.inc.php';
             Déploiement et migration de postes de travail
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            Le déploiement de postes de travail consiste à préparer et à mettre en place des ordinateurs pour un usage professionnel. Cela peut inclure l'installation du système d'exploitation et des logiciels professionnels, la configuration des paramètres de réseau et de sécurité, la création des comptes utilisateurs, etc.            </div>
           </div>
           <div class="grid-item">
           <img src="https://st3.depositphotos.com/3591429/15092/i/600/depositphotos_150927082-stock-photo-woman-using-laptop.jpg" class="grid-image">
@@ -262,8 +254,7 @@ include 'inc/nav.inc.php';
             Sites Web sur-mesure ( Site Vitrine, E-Commerce, Site Mobile, Communautaire, Institutionnel, Blog, Forum )
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic provident ut, error repellat magnam consequatur.
-            </div>
+            Les sites Web sur-mesure sont des sites Internet qui sont créés et développés sur mesure pour répondre aux besoins et aux objectifs spécifiques d'une entreprise ou d'un particulier. </div>
           </div>                                                                                
           <div class="grid-item">
           <img src="https://st.depositphotos.com/1187563/3333/i/600/depositphotos_33333557-stock-photo-two-laptop-computers-with-folders.jpg" class="grid-image">
@@ -271,8 +262,7 @@ include 'inc/nav.inc.php';
             Sauvegarde et transfert de données
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            La sauvegarde de données est le processus de copie de données sur un support de stockage secondaire afin de les protéger en cas de perte ou de dommage du support de stockage principal. Cela peut être fait manuellement ou automatiquement, en utilisant un logiciel de sauvegarde ou un service de sauvegarde en ligne.            </div>
           </div>            
           <div class="grid-item">
           <img src="https://st3.depositphotos.com/1192060/13012/i/600/depositphotos_130125318-stock-photo-fixing-a-printer-and-clipped.jpg" class="grid-image">
@@ -280,8 +270,7 @@ include 'inc/nav.inc.php';
             Réparation / Configuration imprimantes 
             </div>
             <div class="grid-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque debitis non atque velit inventore? Id eligendi culpa veritatis. In neque, nam suscipit impedit earum illum sequi obcaecati veniam a, quis hic numquam incidunt maxime provident ut, error repellat magnam consequatur.
-            </div>
+            La réparation et la configuration des imprimantes peuvent être nécessaires lorsque l'imprimante ne fonctionne pas correctement ou que vous souhaitez configurer l'imprimante pour l'utiliser de manière optimale. Cela peut inclure la résolution de problèmes de connexion, de mise en ligne, d'installation de pilotes ou de configuration des paramètres de l'imprimante.            </div>
           </div>                                                                        
         </div>
 </div>

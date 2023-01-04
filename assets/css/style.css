@@ -267,7 +267,7 @@ canvas{
     } 
 }
 /* PAGE SERVICES POUR TRES PETIT ECRAN */
-@media(min-width: 319px) and (max-width: 700px)
+@media(min-width: 310px) and (max-width: 700px)
 {
     .grid-image{
         width: 100%;
@@ -299,7 +299,7 @@ canvas{
     } */
 }
 /* PAGE SERVICES POUR PETIT ECRAN */
-@media(min-width: 319px) and (max-width: 1400px)
+@media(min-width: 310px) and (max-width: 1400px)
 {
     .grid-image{
         width: 100%;
@@ -354,7 +354,12 @@ canvas{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 }   
-
+@media(min-width: 310px) and (max-width: 375px){
+    #nav-title{
+        text-align: justify;
+        font-size: 10px;
+    }
+}
 /* BOUTTON QUI RENVOIE EN HAUT DE PAGE */
 #btt{
     opacity:0;
