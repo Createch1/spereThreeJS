@@ -57,22 +57,7 @@ include 'inc/nav.inc.php';
 </div>
 </div>
 
-<!-- TEST DE WALID -->
-<form action="formulaire.php" method="post">
-  <label for="nom">Nom :</label><br>
-  <input type="text" id="nom" name="nom"><br>
 
-  <label for="prenom">Prenom :</label><br>
-  <input type="text" id="prenom" name="prenom"><br>
-
-  <label for="email">Email :</label><br>
-  <input type="text" id="email" name="email"><br>
-
-  <label for="message">Message :</label><br>
-  <textarea id="message" name="message"></textarea><br>
-
-  <input type="submit" name="submit" value="Envoyer">
-</form>
 
 
 
