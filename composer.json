@@ -1,0 +1,6 @@
+{
+    "name": "aqdas/aqdas",
+    "require": {
+        "phpmailer/phpmailer": "^6.7"
+    }
+}
