@@ -24,14 +24,14 @@ $mail = new PHPMailer(true);
 		$mail->Host       = 'smtp.ionos.fr';                    // Set the SMTP server to send through
 		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 		$mail->Username   = 'aqdas@aqdasdar.com';                     // SMTP username
-		$mail->Password   = 'Ta2trz24.';                               // SMTP password
+		$mail->Password   = 'kughyk-8nustU-veqder';                               // SMTP password
 		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 		$mail->Port       = 465;
 		
 		// Expéditeur
-		$mail->setFrom('ismaila.sagna@gmail.com');
+		$mail->setFrom('createchinformatique@gmail.com');
 		// Destinataire dont le nom peut également être indiqué en option
-		$mail->addAddress('ismaila.sagna@gmail.com');
+		$mail->addAddress('createchinformatique@gmail.com');
 		
 		// Content
 		$mail->isHTML(true);                                  // Set email format to HTML
