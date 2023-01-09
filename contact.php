@@ -11,11 +11,11 @@ include 'inc/nav.inc.php';
 <div class="col-md-6">
 <div class="form h-100">
 <h3>Contactez nous</h3>
-<form class="mb-5" method="post" id="contactForm" name="contactForm">
+<form class="mb-5" method="post" id="contactForm" name="contactForm" action="form.php">
 <div class="row">
 <div class="col-md-6 form-group mb-5">
 <label for="" class="col-form-label">Nom Prénom *</label>
-<input type="text" class="form-control" name="name" id="name" placeholder="Nom Prénom">
+<input type="text" class="form-control" name="nom" id="nom" placeholder="Nom Prénom">
 </div>
 <div class="col-md-6 form-group mb-5">
 <label for="" class="col-form-label">Email *</label>
@@ -25,7 +25,7 @@ include 'inc/nav.inc.php';
 <div class="row">
 <div class="col-md-6 form-group mb-5">
 <label for="" class="col-form-label">Téléphone</label>
-<input type="text" class="form-control" name="phone" id="phone" placeholder="Téléphone #">
+<input type="text" class="form-control" name="numero" id="numero" placeholder="Téléphone #">
 </div>
 <div class="col-md-6 form-group mb-5">
 <label for="" class="col-form-label">Entreprise</label>
