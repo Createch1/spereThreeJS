@@ -24,3 +24,9 @@ define('URL', 'http://localhost/PHP/spereThreeJS/'); // on met le / à la fin po
 define('PROJECT_PATH', '/PHP/spereThreeJS/');
 // chemin server
 define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT']); // cette ligne ne sera jamais à modifier
+
+
+// envoie de mail 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
