@@ -153,6 +153,19 @@ canvas{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 50px 0 0 0;
 }
+
+/* BANNIERE COOKIE */
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 16px;
+  text-align: center;
+}
+
 /* PAGE SERVICES POUR TRES GRAND ECRAN */
 @media(min-width: 1920px) and (max-width: 5000px)
 {

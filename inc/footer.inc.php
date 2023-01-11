@@ -1,8 +1,14 @@
 </main>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    
+
+
+
+<div id="cookie-banner">
+  <p>Notre site utilise des cookies pour améliorer votre expérience. <a href="#" id="cookie-banner-accept">Accepter</a> ou <a href="#" id="cookie-banner-decline">Refuser</a></p>
+</div>
+
+
     </body>
     <!-- FOOTER -->
     <footer class="secondary">
@@ -16,5 +22,8 @@
       <!-- Section: Text -->
     </footer>
     <!-- FIN FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@latest/dist/js.cookie.min.js"></script>
+<script src='<?php echo URL ?>assets/js/script.js'> </script>
   </html>
     
