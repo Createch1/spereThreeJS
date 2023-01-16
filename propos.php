@@ -116,4 +116,6 @@ CREATECH Informatique :</p><a href="https://www.facebook.com/createch.informatiq
 </main>
 
 <?php
+include 'inc/button.scroll.inc.php';
 include 'inc/footer.inc.php';
+?>

@@ -1,4 +1,4 @@
-<a href="#nav-bar"><div id='btt' onclick='scr_top.init()'><img src="https://cdn-icons-png.flaticon.com/512/25/25366.png" id="icone"></div></a>
+<a href="https://calendly.com/createchi/prise-de-rendez-vous"><div class="rdvbutton" onclick='scr_top.init()'>Prendre un rendez vous</div></a>
 <script>
 var scr_top={
 diff:0,
@@ -27,5 +27,4 @@ hauteur_scroll>scr_top.btn_vue ? document.querySelector("#btt").style.opacity=1 
 }
 }
 typeof window.addEventListener == 'undefined' ? attachEvent("onscroll",scr_top.tombou) : document.addEventListener("scroll",scr_top.tombou, false);
-
 </script>

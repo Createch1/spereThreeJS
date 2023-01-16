@@ -273,8 +273,18 @@ include 'inc/nav.inc.php';
             La réparation et la configuration des imprimantes peuvent être nécessaires lorsque l'imprimante ne fonctionne pas correctement ou que vous souhaitez configurer l'imprimante pour l'utiliser de manière optimale. Cela peut inclure la résolution de problèmes de connexion, de mise en ligne, d'installation de pilotes ou de configuration des paramètres de l'imprimante.            </div>
           </div>                                                                        
         </div>
+
+
+
+
+
+
+
+
 </div>
+
 <?php 
+include 'inc/rdvbutton.inc.php';
 include 'inc/button.scroll.inc.php';
 include 'inc/footer.inc.php';
 ?>

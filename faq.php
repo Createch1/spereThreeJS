@@ -153,5 +153,6 @@ Vous intervenez sous quels délais?      </button>
 </div>
 </main>
 <?php 
+include 'inc/button.scroll.inc.php';
 include 'inc/footer.inc.php';
 ?>

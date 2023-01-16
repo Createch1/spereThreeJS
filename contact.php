@@ -144,8 +144,11 @@ if (isset($_POST['nom']) && isset($_POST['email']) && isset($_POST['message'])) 
 
 
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 <?php 
 include 'inc/footer.inc.php'
 ?>
